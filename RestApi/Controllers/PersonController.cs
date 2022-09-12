@@ -21,7 +21,7 @@ namespace RestApi.Controllers
             new Person(4,"Oscar4", "Hansen", 40, "Male", 59.334, 18.063, false )
         };
 
-        //Getting all persons information
+        //Getting all peoples information
         [HttpGet]
         public List<Person> getAllPersons()
         {
