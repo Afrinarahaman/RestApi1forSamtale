@@ -12,7 +12,7 @@ namespace RestApi.Controllers
     [Route("[controller]")]
     public class PersonController : ControllerBase
     {
-        //List of persons information
+        //List of peoples information
         public static List<Person> persons = new List<Person>()
         {
             new Person(1, "Ida", "Jensen", 56, "Female", 55.676,12.568,true),
